@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&family=Tajawal&display=swap");
+
+html{
+    background-color: rgb(6, 6, 49);
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Tajawal", sans-serif;
+}
+/* THE NAV */
+nav {
+background-image: url("images/photo_1_2024-02-01_20-04-45.jpg");
+background-size: cover;
+padding-bottom: 1.8rem;
+}
+nav ul{
+    padding-top: 1.5rem;
+}
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding: 0 1rem;
+
+}
+
+nav .navLink {
+  text-decoration: none;
+  color: rgb(160, 209, 252);
+  font-size: 1.4rem;
+}
+nav .navLink:hover {
+  color: rgb(241, 178, 41);
+}
+h1 {
+    font-family: "Rubik", sans-serif;
+    color: aliceblue;
+    padding-top: 0.15rem;
+    font-size: 2.25rem;
+  }
+/* THE MAIN */
+.main{
+    margin:0 1.5rem;
+
+}
+ .main h3{
+    color: rgb(15, 255, 15);
+    padding-top: 1.5rem;
+
+ }
+ 
+ .main p{
+    color: aliceblue;
+    /* **************************************CHECK HERE!! */
+    margin: 0 auto;
+    display: flex;
+    min-width: 25rem;
+    max-width: 50rem;
+ }
+/* THE HISTORY */
+
+.main #History{
+    color:rgb(254, 137, 65) ;
+ }
+/* THE GALLARY */
+.photos{
+    padding-top: 5rem;
+}
+.photos h4{
+    color: rgb(160, 209, 252);
+}
+.photos img{
+    width: 20rem;
+    height: 15rem;
+}
+
+/* THE FOOTER */
+.footer {
+  background-color: rgb(28, 32, 38);
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+  }
+.footer .link {
+  color: aliceblue;
+  font-size: 1rem;
+  text-decoration: none;
+  padding-top: 0.75rem;
+}
+.footer .link:hover {
+  color: yellow;
+}
